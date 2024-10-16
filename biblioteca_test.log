@@ -1,0 +1,63 @@
+2024-10-16T19:01:36.316-03:00  INFO 40228 --- [App] [main] com.biblioteca.App.AppApplicationTests   : Starting AppApplicationTests using Java 17.0.12 with PID 40228 (started by marce in C:\ProjetoSpring\AppBiblioteca)
+2024-10-16T19:01:36.323-03:00  INFO 40228 --- [App] [main] com.biblioteca.App.AppApplicationTests   : The following 1 profile is active: "test"
+2024-10-16T19:01:36.803-03:00  INFO 40228 --- [App] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-16T19:01:36.861-03:00  INFO 40228 --- [App] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2024-10-16T19:01:37.497-03:00  INFO 40228 --- [App] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-16T19:01:37.687-03:00  INFO 40228 --- [App] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bibliotecadb user=SA
+2024-10-16T19:01:37.690-03:00  INFO 40228 --- [App] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-16T19:01:37.761-03:00  INFO 40228 --- [App] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-16T19:01:37.863-03:00  INFO 40228 --- [App] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-16T19:01:37.909-03:00  INFO 40228 --- [App] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-16T19:01:38.275-03:00  INFO 40228 --- [App] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-16T19:01:39.157-03:00  INFO 40228 --- [App] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-16T19:01:39.211-03:00  INFO 40228 --- [App] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16T19:01:39.843-03:00  WARN 40228 --- [App] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-16T19:01:40.219-03:00  INFO 40228 --- [App] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bibliotecadb'
+2024-10-16T19:01:40.271-03:00  INFO 40228 --- [App] [main] com.biblioteca.App.AppApplicationTests   : Started AppApplicationTests in 4.238 seconds (process running for 5.282)
+2024-10-16T19:01:40.647-03:00  INFO 40228 --- [App] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16T19:01:40.655-03:00  INFO 40228 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-16T19:01:40.658-03:00  INFO 40228 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-16T19:05:43.827-03:00  INFO 40028 --- [App] [main] com.biblioteca.App.AppApplicationTests   : Starting AppApplicationTests using Java 17.0.12 with PID 40028 (started by marce in C:\ProjetoSpring\AppBiblioteca)
+2024-10-16T19:05:43.828-03:00  INFO 40028 --- [App] [main] com.biblioteca.App.AppApplicationTests   : The following 1 profile is active: "test"
+2024-10-16T19:05:44.351-03:00  INFO 40028 --- [App] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-16T19:05:44.404-03:00  INFO 40028 --- [App] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2024-10-16T19:05:44.928-03:00  INFO 40028 --- [App] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-16T19:05:45.105-03:00  INFO 40028 --- [App] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bibliotecadb user=SA
+2024-10-16T19:05:45.106-03:00  INFO 40028 --- [App] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-16T19:05:45.151-03:00  INFO 40028 --- [App] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-16T19:05:45.238-03:00  INFO 40028 --- [App] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-16T19:05:45.279-03:00  INFO 40028 --- [App] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-16T19:05:45.580-03:00  INFO 40028 --- [App] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-16T19:05:46.450-03:00  INFO 40028 --- [App] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-16T19:05:46.499-03:00  INFO 40028 --- [App] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16T19:05:46.997-03:00  WARN 40028 --- [App] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-16T19:05:47.255-03:00  INFO 40028 --- [App] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bibliotecadb'
+2024-10-16T19:05:47.297-03:00  INFO 40028 --- [App] [main] com.biblioteca.App.AppApplicationTests   : Started AppApplicationTests in 3.764 seconds (process running for 4.775)
+2024-10-16T19:05:47.653-03:00  INFO 40028 --- [App] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16T19:05:47.662-03:00  INFO 40028 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-16T19:05:47.665-03:00  INFO 40028 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-16T19:06:32.149-03:00  INFO 41760 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Starting AppApplication using Java 17.0.12 with PID 41760 (C:\ProjetoSpring\AppBiblioteca\target\classes started by marce in C:\ProjetoSpring\AppBiblioteca)
+2024-10-16T19:06:32.152-03:00  INFO 41760 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : The following 1 profile is active: "test"
+2024-10-16T19:06:32.213-03:00  INFO 41760 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-16T19:06:32.213-03:00  INFO 41760 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-16T19:06:32.721-03:00  INFO 41760 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-16T19:06:32.771-03:00  INFO 41760 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2024-10-16T19:06:33.468-03:00  INFO 41760 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-16T19:06:33.482-03:00  INFO 41760 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-16T19:06:33.482-03:00  INFO 41760 --- [App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-16T19:06:33.524-03:00  INFO 41760 --- [App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-16T19:06:33.525-03:00  INFO 41760 --- [App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1310 ms
+2024-10-16T19:06:33.553-03:00  INFO 41760 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-16T19:06:33.680-03:00  INFO 41760 --- [App] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bibliotecadb user=SA
+2024-10-16T19:06:33.682-03:00  INFO 41760 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-16T19:06:33.693-03:00  INFO 41760 --- [App] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bibliotecadb'
+2024-10-16T19:06:33.843-03:00  INFO 41760 --- [App] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-16T19:06:33.892-03:00  INFO 41760 --- [App] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-16T19:06:33.931-03:00  INFO 41760 --- [App] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-16T19:06:34.153-03:00  INFO 41760 --- [App] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-16T19:06:34.825-03:00  INFO 41760 --- [App] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-16T19:06:34.874-03:00  INFO 41760 --- [App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16T19:06:35.287-03:00  WARN 41760 --- [App] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-16T19:06:35.564-03:00  INFO 41760 --- [App] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-16T19:06:35.595-03:00  INFO 41760 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-16T19:06:35.603-03:00  INFO 41760 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Started AppApplication in 3.833 seconds (process running for 4.207)
