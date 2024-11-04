@@ -8,13 +8,13 @@ import com.biblioteca.domains.dtos.AutorDTO;
 import com.biblioteca.domains.dtos.EditoraDTO;
 import com.biblioteca.domains.dtos.LivroDTO;
 import com.biblioteca.service.EditoraService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import java.net.URI;
 import java.util.List;
 
 @RestController
@@ -38,5 +38,14 @@ public class EditoraResource {
     public ResponseEntity<EditoraDTO> findById(@PathVariable String cnpj){
         Editora obj =this.editoraService.findbycnpj(cnpj);
         return ResponseEntity.ok().body(new EditoraDTO(obj));
+    }
+    @PostMapping
+    public ResponseEntity<EditoraDTO> create(@Valid @RequestBody EditoraDTO dto){
+        Editora editora = editoraService.create(dto);
+        //cria o URI para o recurso criado
+        URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
+                .buildAndExpand(editora.getId()).toUri();
+        //retorna a resposta com status 201 Created o local do recurso creado
+        return ResponseEntity.created(uri).build();
     }
 }

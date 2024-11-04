@@ -1,121 +1,164 @@
-2024-09-12T19:34:10.647-03:00  INFO 9148 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Starting AppApplication using Java 17.0.10 with PID 9148 (C:\Users\FEF\Documents\ProjetosMaven\AppBiblioteca\target\classes started by FEF in C:\Users\FEF\Documents\ProjetosMaven\AppBiblioteca)
-2024-09-12T19:34:10.653-03:00  INFO 9148 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : The following 1 profile is active: "dev"
-2024-09-12T19:34:10.692-03:00  INFO 9148 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-12T19:34:10.693-03:00  INFO 9148 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-12T19:34:10.994-03:00  INFO 9148 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-09-12T19:34:11.026-03:00  INFO 9148 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
-2024-09-12T19:34:11.509-03:00  INFO 9148 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-12T19:34:11.518-03:00  INFO 9148 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-12T19:34:11.518-03:00  INFO 9148 --- [App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-12T19:34:11.551-03:00  INFO 9148 --- [App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-12T19:34:11.552-03:00  INFO 9148 --- [App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 858 ms
-2024-09-12T19:34:11.572-03:00  INFO 9148 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-12T19:34:12.784-03:00  INFO 9148 --- [App] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-09-12T19:34:12.830-03:00  INFO 9148 --- [App] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-09-12T19:34:12.856-03:00  INFO 9148 --- [App] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-09-12T19:34:13.062-03:00  INFO 9148 --- [App] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-09-12T19:34:13.082-03:00  INFO 9148 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-12T19:34:14.120-03:00  WARN 9148 --- [App] [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
-
-java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:290) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.12.jar:6.1.12]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.12.jar:6.1.12]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.12.jar:6.1.12]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.12.jar:6.1.12]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.12.jar:6.1.12]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.12.jar:6.1.12]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.3.jar:3.3.3]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.3.jar:3.3.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.3.jar:3.3.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.3.jar:3.3.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.3.jar:3.3.3]
-	at com.biblioteca.App.AppApplication.main(AppApplication.java:16) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.3.jar:3.3.3]
-
-2024-09-12T19:34:14.127-03:00 ERROR 9148 --- [App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-2024-09-12T19:34:14.128-03:00  WARN 9148 --- [App] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-2024-09-12T19:34:14.130-03:00  INFO 9148 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-09-12T19:34:14.136-03:00  INFO 9148 --- [App] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-09-12T19:34:14.150-03:00 ERROR 9148 --- [App] [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.12.jar:6.1.12]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.12.jar:6.1.12]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.3.jar:3.3.3]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.3.jar:3.3.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.3.jar:3.3.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.3.jar:3.3.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.3.jar:3.3.3]
-	at com.biblioteca.App.AppApplication.main(AppApplication.java:16) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.3.jar:3.3.3]
-Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.12.jar:6.1.12]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.12.jar:6.1.12]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.12.jar:6.1.12]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.12.jar:6.1.12]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.12.jar:6.1.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.12.jar:6.1.12]
-	... 20 common frames omitted
-Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:152) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:362) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	... 35 common frames omitted
-
+2024-11-03T09:54:16.657-03:00  INFO 27316 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Starting AppApplication using Java 17.0.12 with PID 27316 (C:\ProjetoSpring\AppBiblioteca\target\classes started by marce in C:\ProjetoSpring\AppBiblioteca)
+2024-11-03T09:54:16.663-03:00  INFO 27316 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : The following 1 profile is active: "dev"
+2024-11-03T09:54:16.770-03:00  INFO 27316 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-03T09:54:16.771-03:00  INFO 27316 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-03T09:54:18.067-03:00  INFO 27316 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-03T09:54:18.167-03:00  INFO 27316 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
+2024-11-03T09:54:19.721-03:00  INFO 27316 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-03T09:54:19.749-03:00  INFO 27316 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-03T09:54:19.750-03:00  INFO 27316 --- [App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-03T09:54:19.851-03:00  INFO 27316 --- [App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-03T09:54:19.852-03:00  INFO 27316 --- [App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3079 ms
+2024-11-03T09:54:19.913-03:00  INFO 27316 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-03T09:54:20.277-03:00  INFO 27316 --- [App] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5851e3ca
+2024-11-03T09:54:20.279-03:00  INFO 27316 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-03T09:54:20.292-03:00  INFO 27316 --- [App] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecadb'
+2024-11-03T09:54:20.539-03:00  INFO 27316 --- [App] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-03T09:54:20.736-03:00  INFO 27316 --- [App] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-03T09:54:20.835-03:00  INFO 27316 --- [App] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-03T09:54:21.387-03:00  INFO 27316 --- [App] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-03T09:54:22.734-03:00  INFO 27316 --- [App] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-03T09:54:22.762-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       drop constraint if exists FKn0lgu5s5522wg7fo5i6jxvimp
+2024-11-03T09:54:22.791-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       drop constraint if exists FK4cn2ysaivmxmjbt3wswo4ih7n
+2024-11-03T09:54:22.797-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists autor cascade
+2024-11-03T09:54:22.816-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists editora cascade
+2024-11-03T09:54:22.825-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists livro cascade
+2024-11-03T09:54:22.835-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_autor
+2024-11-03T09:54:22.841-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_editora
+2024-11-03T09:54:22.846-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_livro
+2024-11-03T09:54:22.856-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_autor start with 1 increment by 50
+2024-11-03T09:54:22.870-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_editora start with 1 increment by 50
+2024-11-03T09:54:22.873-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_livro start with 1 increment by 50
+2024-11-03T09:54:22.885-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table autor (
+        id integer not null,
+        documento_pessoal varchar(255) not null unique,
+        nome varchar(255) not null,
+        primary key (id)
+    )
+2024-11-03T09:54:22.913-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table editora (
+        id integer not null,
+        cnpj varchar(255) not null unique,
+        razao_social varchar(255) not null,
+        primary key (id)
+    )
+2024-11-03T09:54:22.923-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table livro (
+        conservacao smallint check (conservacao between 0 and 3),
+        data_compra date,
+        idautor integer,
+        ideditora integer,
+        numero_paginas integer not null,
+        status smallint check (status between 0 and 2),
+        valor_compra numeric(18,3) not null,
+        id_livro bigint not null,
+        isbn varchar(255) not null unique,
+        titulo varchar(255) not null,
+        primary key (id_livro)
+    )
+2024-11-03T09:54:22.938-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       add constraint FKn0lgu5s5522wg7fo5i6jxvimp 
+       foreign key (idautor) 
+       references autor
+2024-11-03T09:54:22.948-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       add constraint FK4cn2ysaivmxmjbt3wswo4ih7n 
+       foreign key (ideditora) 
+       references editora
+2024-11-03T09:54:22.958-03:00  INFO 27316 --- [App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T09:54:23.520-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_autor')
+2024-11-03T09:54:23.670-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        autor
+        (documento_pessoal, nome, id) 
+    values
+        (?, ?, ?)
+2024-11-03T09:54:23.702-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_autor')
+2024-11-03T09:54:23.707-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        autor
+        (documento_pessoal, nome, id) 
+    values
+        (?, ?, ?)
+2024-11-03T09:54:23.714-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_editora')
+2024-11-03T09:54:23.719-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        editora
+        (cnpj, razao_social, id) 
+    values
+        (?, ?, ?)
+2024-11-03T09:54:23.724-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_editora')
+2024-11-03T09:54:23.728-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        editora
+        (cnpj, razao_social, id) 
+    values
+        (?, ?, ?)
+2024-11-03T09:54:23.732-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_livro')
+2024-11-03T09:54:23.742-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-03T09:54:23.753-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_livro')
+2024-11-03T09:54:23.765-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-03T09:54:23.778-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-03T09:54:23.792-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-03T09:54:24.216-03:00  WARN 27316 --- [App] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-03T09:54:25.121-03:00  INFO 27316 --- [App] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-03T09:54:25.156-03:00  INFO 27316 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-03T09:54:25.167-03:00  INFO 27316 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Started AppApplication in 9.187 seconds (process running for 9.778)
+2024-11-03T10:03:42.344-03:00  INFO 27316 --- [App] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T10:03:42.346-03:00  INFO 27316 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-03T10:03:42.350-03:00  INFO 27316 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

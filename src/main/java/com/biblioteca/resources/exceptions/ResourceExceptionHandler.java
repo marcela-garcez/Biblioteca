@@ -1,5 +1,6 @@
 package com.biblioteca.resources.exceptions;
 
+import com.biblioteca.service.exceptions.DataIntegrityViolationException;
 import com.biblioteca.service.exceptions.ObjectNotFoundException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -27,4 +28,12 @@ public class ResourceExceptionHandler {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
     }
 
+    @ExceptionHandler(DataIntegrityViolationException.class)
+    public ResponseEntity<StandardError> dataIntegrityViolationException(DataIntegrityViolationException ex, HttpServletRequest request){
+
+        StandardError error = new StandardError(System.currentTimeMillis(),HttpStatus.BAD_REQUEST.value(), "Data Integrity Violation",
+                ex.getMessage(),request.getRequestURI());
+
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
+}
 }

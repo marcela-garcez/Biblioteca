@@ -1,5 +1,6 @@
 package com.biblioteca.domains;
 
+import com.biblioteca.domains.dtos.EditoraDTO;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -13,9 +14,10 @@ public class Editora {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_editora")
-    private int id;
+    private Integer id;
 
     @NotNull @NotBlank
+    @Column(unique = true)
     private String cnpj;
 
     @NotNull @NotBlank
@@ -24,17 +26,23 @@ public class Editora {
     public Editora() {
     }
 
-    public Editora(int id, String cnpj, String razaoSocial) {
+    public Editora(Integer id, String cnpj, String razaoSocial) {
         this.id = id;
         this.cnpj = cnpj;
         this.razaoSocial = razaoSocial;
     }
 
-    public int getId() {
+    public Editora(EditoraDTO dto) {
+        this.id = dto.getId();
+        this.cnpj = dto.getCnpj();
+        this.razaoSocial = dto.getRazaoSocial();
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

@@ -1,5 +1,6 @@
 package com.biblioteca.domains;
 
+import com.biblioteca.domains.dtos.LivroDTO;
 import com.biblioteca.domains.enums.Conservacao;
 import com.biblioteca.domains.enums.Status;
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -18,12 +19,13 @@ public class Livro {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "seq_livro")
-    private long idLivro;
+    private Long idLivro;
 
     @NotBlank @NotNull
     private String titulo;
 
     @NotBlank @NotNull
+    @Column(unique = true)
     private String isbn;
 
     @NotNull
@@ -60,7 +62,7 @@ public class Livro {
         this.conservacao = Conservacao.EXCELENTE;
     }
 
-    public Livro(long idLivro, String titulo, String isbn, int numeroPaginas, LocalDate dataCompra, BigDecimal valorCompra, Autor autor, Editora editora, Status status, Conservacao conservacao) {
+    public Livro(Long idLivro, String titulo, String isbn, int numeroPaginas, LocalDate dataCompra, BigDecimal valorCompra, Autor autor, Editora editora, Status status, Conservacao conservacao) {
         this.idLivro = idLivro;
         this.titulo = titulo;
         this.isbn = isbn;
@@ -73,11 +75,28 @@ public class Livro {
         this.conservacao = conservacao;
     }
 
-    public long getIdLivro() {
+    public Livro(LivroDTO dto) {
+        this.idLivro = dto.getId();
+        this.titulo = dto.getTitulo();
+        this.isbn = dto.getIsbn();
+        this.numeroPaginas = dto.getNumeroPaginas();
+        this.dataCompra = dto.getDataCompra();
+        this.valorCompra = dto.getValorCompra();
+        this.autor = new Autor();
+        this.autor.setId(dto.getAutor());
+        this.editora = new Editora();
+        this.editora.setId(dto.getEditora());
+        this.status = Status.toEnum(dto.getStatus());
+        this.conservacao = Conservacao.toEnum(dto.getConservacao());
+    }
+
+
+
+    public Long getIdLivro() {
         return idLivro;
     }
 
-    public void setIdLivro(long idLivro) {
+    public void setIdLivro(Long idLivro) {
         this.idLivro = idLivro;
     }
 
