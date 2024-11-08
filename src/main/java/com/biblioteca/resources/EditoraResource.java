@@ -48,4 +48,14 @@ public class EditoraResource {
         //retorna a resposta com status 201 Created o local do recurso creado
         return ResponseEntity.created(uri).build();
     }
+    @PutMapping(value = "/{id}")
+    public ResponseEntity<EditoraDTO> update(@PathVariable Integer id, @Valid @RequestBody EditoraDTO objDto){
+        Editora Obj = editoraService.update(id, objDto);
+        return ResponseEntity.ok().body(new EditoraDTO(Obj));
+    }
+    @DeleteMapping(value = "/{id}")
+    public ResponseEntity<EditoraDTO> delete(@PathVariable Integer id){
+        editoraService.delete(id);
+        return ResponseEntity.noContent().build();
+    }
 }

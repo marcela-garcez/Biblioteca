@@ -42,5 +42,19 @@ public class AutorService {
             throw new DataIntegrityViolationException("Documento pessoal já cadastrado!");
         }
     }
+    public Autor update(Integer id, AutorDTO objDto){
+        objDto.setId(id);
+        Autor oldObj = findbyId(id);
+        oldObj = new Autor(objDto);
+        return autorRepo.save(oldObj);
+    }
+    public void delete(Integer id){
+        Autor obj = findbyId(id);
+        if(obj.getLivros().size()>0){
+            throw new DataIntegrityViolationException("Autor não pode ser deletado, pois possui livros vinculados!");
+        }
+        autorRepo.deleteById(Long.valueOf(id));
+}
+
 
 }

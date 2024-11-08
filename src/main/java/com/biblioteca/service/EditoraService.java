@@ -46,12 +46,19 @@ public class EditoraService {
         if (obj.isPresent() && obj.get().getId() != dto.getId()){
             throw new DataIntegrityViolationException("CNPJ já cadastrado!");
         }
-        Optional<Editora> editora = editoraRepo.findBycnpj(dto.getCnpj());
-        if (!editora.isPresent()){
-            throw new DataIntegrityViolationException("CNPJ - " +dto.getCnpj()+ " não está cadastrado!");
+
+    }
+    public Editora update(Integer id, EditoraDTO objDto){
+        objDto.setId(id);
+        Editora oldObj = findbyId(id);
+        oldObj = new Editora(objDto);
+        return editoraRepo.save(oldObj);
+    }
+    public void delete(Integer id){
+        Editora obj = findbyId(id);
+        if(obj.getLivros().size()>0){
+            throw new DataIntegrityViolationException("Editora não pode ser deletada, pois possui livros vinculados!");
         }
+        editoraRepo.deleteById(id);
     }
 }
-
-
-

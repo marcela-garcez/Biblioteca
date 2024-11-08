@@ -1,62 +1,62 @@
-2024-11-03T09:54:16.657-03:00  INFO 27316 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Starting AppApplication using Java 17.0.12 with PID 27316 (C:\ProjetoSpring\AppBiblioteca\target\classes started by marce in C:\ProjetoSpring\AppBiblioteca)
-2024-11-03T09:54:16.663-03:00  INFO 27316 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : The following 1 profile is active: "dev"
-2024-11-03T09:54:16.770-03:00  INFO 27316 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-11-03T09:54:16.771-03:00  INFO 27316 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-11-03T09:54:18.067-03:00  INFO 27316 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-11-03T09:54:18.167-03:00  INFO 27316 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
-2024-11-03T09:54:19.721-03:00  INFO 27316 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-11-03T09:54:19.749-03:00  INFO 27316 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-03T09:54:19.750-03:00  INFO 27316 --- [App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-11-03T09:54:19.851-03:00  INFO 27316 --- [App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-03T09:54:19.852-03:00  INFO 27316 --- [App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3079 ms
-2024-11-03T09:54:19.913-03:00  INFO 27316 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-11-03T09:54:20.277-03:00  INFO 27316 --- [App] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5851e3ca
-2024-11-03T09:54:20.279-03:00  INFO 27316 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-11-03T09:54:20.292-03:00  INFO 27316 --- [App] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecadb'
-2024-11-03T09:54:20.539-03:00  INFO 27316 --- [App] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-11-03T09:54:20.736-03:00  INFO 27316 --- [App] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-11-03T09:54:20.835-03:00  INFO 27316 --- [App] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-11-03T09:54:21.387-03:00  INFO 27316 --- [App] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-11-03T09:54:22.734-03:00  INFO 27316 --- [App] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-11-03T09:54:22.762-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:34.222-03:00  INFO 27428 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Starting AppApplication using Java 17.0.12 with PID 27428 (C:\ProjetoSpring\AppBiblioteca\target\classes started by marce in C:\ProjetoSpring\AppBiblioteca)
+2024-11-06T20:27:34.230-03:00  INFO 27428 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : The following 1 profile is active: "dev"
+2024-11-06T20:27:34.304-03:00  INFO 27428 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-06T20:27:34.305-03:00  INFO 27428 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-06T20:27:34.936-03:00  INFO 27428 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06T20:27:35.007-03:00  INFO 27428 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2024-11-06T20:27:35.883-03:00  INFO 27428 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-06T20:27:35.899-03:00  INFO 27428 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-06T20:27:35.900-03:00  INFO 27428 --- [App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-06T20:27:35.980-03:00  INFO 27428 --- [App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-06T20:27:35.980-03:00  INFO 27428 --- [App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1674 ms
+2024-11-06T20:27:36.026-03:00  INFO 27428 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-06T20:27:36.252-03:00  INFO 27428 --- [App] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bacea4a
+2024-11-06T20:27:36.253-03:00  INFO 27428 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-06T20:27:36.265-03:00  INFO 27428 --- [App] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecadb'
+2024-11-06T20:27:36.420-03:00  INFO 27428 --- [App] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06T20:27:36.537-03:00  INFO 27428 --- [App] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-06T20:27:36.610-03:00  INFO 27428 --- [App] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-06T20:27:36.920-03:00  INFO 27428 --- [App] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06T20:27:37.796-03:00  INFO 27428 --- [App] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-06T20:27:37.810-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists livro 
        drop constraint if exists FKn0lgu5s5522wg7fo5i6jxvimp
-2024-11-03T09:54:22.791-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.822-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists livro 
        drop constraint if exists FK4cn2ysaivmxmjbt3wswo4ih7n
-2024-11-03T09:54:22.797-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.823-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists autor cascade
-2024-11-03T09:54:22.816-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.830-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists editora cascade
-2024-11-03T09:54:22.825-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.832-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists livro cascade
-2024-11-03T09:54:22.835-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.836-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_autor
-2024-11-03T09:54:22.841-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.838-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_editora
-2024-11-03T09:54:22.846-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.839-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_livro
-2024-11-03T09:54:22.856-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.843-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_autor start with 1 increment by 50
-2024-11-03T09:54:22.870-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.851-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_editora start with 1 increment by 50
-2024-11-03T09:54:22.873-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.853-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_livro start with 1 increment by 50
-2024-11-03T09:54:22.885-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.857-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     create table autor (
         id integer not null,
         documento_pessoal varchar(255) not null unique,
         nome varchar(255) not null,
         primary key (id)
     )
-2024-11-03T09:54:22.913-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.868-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     create table editora (
         id integer not null,
         cnpj varchar(255) not null unique,
         razao_social varchar(255) not null,
         primary key (id)
     )
-2024-11-03T09:54:22.923-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.872-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     create table livro (
         conservacao smallint check (conservacao between 0 and 3),
         data_compra date,
@@ -70,95 +70,683 @@
         titulo varchar(255) not null,
         primary key (id_livro)
     )
-2024-11-03T09:54:22.938-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.878-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists livro 
        add constraint FKn0lgu5s5522wg7fo5i6jxvimp 
        foreign key (idautor) 
        references autor
-2024-11-03T09:54:22.948-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.883-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists livro 
        add constraint FK4cn2ysaivmxmjbt3wswo4ih7n 
        foreign key (ideditora) 
        references editora
-2024-11-03T09:54:22.958-03:00  INFO 27316 --- [App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-11-03T09:54:23.520-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:37.886-03:00  INFO 27428 --- [App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06T20:27:38.310-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_autor')
-2024-11-03T09:54:23.670-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.427-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         autor
         (documento_pessoal, nome, id) 
     values
         (?, ?, ?)
-2024-11-03T09:54:23.702-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.445-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_autor')
-2024-11-03T09:54:23.707-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.447-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         autor
         (documento_pessoal, nome, id) 
     values
         (?, ?, ?)
-2024-11-03T09:54:23.714-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.451-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_editora')
-2024-11-03T09:54:23.719-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.455-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         editora
         (cnpj, razao_social, id) 
     values
         (?, ?, ?)
-2024-11-03T09:54:23.724-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.459-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_editora')
-2024-11-03T09:54:23.728-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.462-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         editora
         (cnpj, razao_social, id) 
     values
         (?, ?, ?)
-2024-11-03T09:54:23.732-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.467-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_livro')
-2024-11-03T09:54:23.742-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.470-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         livro
         (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2024-11-03T09:54:23.753-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.477-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     select
         nextval('seq_livro')
-2024-11-03T09:54:23.765-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.478-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         livro
         (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2024-11-03T09:54:23.778-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.483-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         livro
         (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2024-11-03T09:54:23.792-03:00 DEBUG 27316 --- [App] [restartedMain] org.hibernate.SQL                        : 
+2024-11-06T20:27:38.486-03:00 DEBUG 27428 --- [App] [restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         livro
         (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2024-11-03T09:54:24.216-03:00  WARN 27316 --- [App] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-11-03T09:54:25.121-03:00  INFO 27316 --- [App] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-03T09:54:25.156-03:00  INFO 27316 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-11-03T09:54:25.167-03:00  INFO 27316 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Started AppApplication in 9.187 seconds (process running for 9.778)
-2024-11-03T10:03:42.344-03:00  INFO 27316 --- [App] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-11-03T10:03:42.346-03:00  INFO 27316 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-11-03T10:03:42.350-03:00  INFO 27316 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-06T20:27:38.569-03:00  WARN 27428 --- [App] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06T20:27:38.958-03:00  INFO 27428 --- [App] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-06T20:27:38.989-03:00  INFO 27428 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-06T20:27:39.000-03:00  INFO 27428 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Started AppApplication in 5.373 seconds (process running for 5.967)
+2024-11-06T20:42:04.390-03:00  INFO 27428 --- [App] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06T20:42:04.394-03:00  INFO 27428 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-06T20:42:04.400-03:00  INFO 27428 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-06T20:42:17.788-03:00  INFO 35624 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Starting AppApplication using Java 17.0.12 with PID 35624 (C:\ProjetoSpring\AppBiblioteca\target\classes started by marce in C:\ProjetoSpring\AppBiblioteca)
+2024-11-06T20:42:17.792-03:00  INFO 35624 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : The following 1 profile is active: "dev"
+2024-11-06T20:42:17.885-03:00  INFO 35624 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-06T20:42:17.886-03:00  INFO 35624 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-06T20:42:18.627-03:00  INFO 35624 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06T20:42:18.683-03:00  INFO 35624 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2024-11-06T20:42:19.722-03:00  INFO 35624 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-06T20:42:19.736-03:00  INFO 35624 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-06T20:42:19.736-03:00  INFO 35624 --- [App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-06T20:42:19.788-03:00  INFO 35624 --- [App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-06T20:42:19.788-03:00  INFO 35624 --- [App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1900 ms
+2024-11-06T20:42:19.833-03:00  INFO 35624 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-06T20:42:20.085-03:00  INFO 35624 --- [App] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d51a18c
+2024-11-06T20:42:20.087-03:00  INFO 35624 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-06T20:42:20.097-03:00  INFO 35624 --- [App] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecadb'
+2024-11-06T20:42:20.272-03:00  INFO 35624 --- [App] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06T20:42:20.502-03:00  INFO 35624 --- [App] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-06T20:42:20.600-03:00  INFO 35624 --- [App] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-06T20:42:21.190-03:00  INFO 35624 --- [App] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06T20:42:22.257-03:00  INFO 35624 --- [App] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-06T20:42:22.272-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       drop constraint if exists FKn0lgu5s5522wg7fo5i6jxvimp
+2024-11-06T20:42:22.286-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       drop constraint if exists FK4cn2ysaivmxmjbt3wswo4ih7n
+2024-11-06T20:42:22.288-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists autor cascade
+2024-11-06T20:42:22.296-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists editora cascade
+2024-11-06T20:42:22.298-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists livro cascade
+2024-11-06T20:42:22.304-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_autor
+2024-11-06T20:42:22.306-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_editora
+2024-11-06T20:42:22.309-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_livro
+2024-11-06T20:42:22.315-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_autor start with 1 increment by 50
+2024-11-06T20:42:22.336-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_editora start with 1 increment by 50
+2024-11-06T20:42:22.339-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_livro start with 1 increment by 50
+2024-11-06T20:42:22.345-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table autor (
+        id integer not null,
+        documento_pessoal varchar(255) not null unique,
+        nome varchar(255) not null,
+        primary key (id)
+    )
+2024-11-06T20:42:22.358-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table editora (
+        id integer not null,
+        cnpj varchar(255) not null unique,
+        razao_social varchar(255) not null,
+        primary key (id)
+    )
+2024-11-06T20:42:22.364-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table livro (
+        conservacao smallint check (conservacao between 0 and 3),
+        data_compra date,
+        idautor integer,
+        ideditora integer,
+        numero_paginas integer not null,
+        status smallint check (status between 0 and 2),
+        valor_compra numeric(18,3) not null,
+        id_livro bigint not null,
+        isbn varchar(255) not null unique,
+        titulo varchar(255) not null,
+        primary key (id_livro)
+    )
+2024-11-06T20:42:22.372-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       add constraint FKn0lgu5s5522wg7fo5i6jxvimp 
+       foreign key (idautor) 
+       references autor
+2024-11-06T20:42:22.379-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       add constraint FK4cn2ysaivmxmjbt3wswo4ih7n 
+       foreign key (ideditora) 
+       references editora
+2024-11-06T20:42:22.383-03:00  INFO 35624 --- [App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06T20:42:22.768-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_autor')
+2024-11-06T20:42:22.811-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        autor
+        (documento_pessoal, nome, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:42:22.822-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_autor')
+2024-11-06T20:42:22.823-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        autor
+        (documento_pessoal, nome, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:42:22.825-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_editora')
+2024-11-06T20:42:22.827-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        editora
+        (cnpj, razao_social, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:42:22.829-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_editora')
+2024-11-06T20:42:22.830-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        editora
+        (cnpj, razao_social, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:42:22.832-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_livro')
+2024-11-06T20:42:22.835-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:42:22.841-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_livro')
+2024-11-06T20:42:22.843-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:42:22.845-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:42:22.847-03:00 DEBUG 35624 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:42:22.907-03:00  WARN 35624 --- [App] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06T20:42:23.218-03:00  WARN 35624 --- [App] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.method.annotation.MethodArgumentTypeMismatchException]: {public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handleMethodArgumentTypeMismatchException(org.springframework.web.bind.MethodArgumentNotValidException,jakarta.servlet.http.HttpServletRequest), public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handlerMethodArgumentTypeMismatchException(org.springframework.web.method.annotation.MethodArgumentTypeMismatchException,jakarta.servlet.http.HttpServletRequest)}
+2024-11-06T20:42:23.219-03:00  INFO 35624 --- [App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06T20:42:23.224-03:00  INFO 35624 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-06T20:42:23.227-03:00  INFO 35624 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-06T20:42:23.232-03:00  INFO 35624 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-06T20:42:23.248-03:00  INFO 35624 --- [App] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-06T20:42:23.278-03:00 ERROR 35624 --- [App] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.method.annotation.MethodArgumentTypeMismatchException]: {public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handleMethodArgumentTypeMismatchException(org.springframework.web.bind.MethodArgumentNotValidException,jakarta.servlet.http.HttpServletRequest), public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handlerMethodArgumentTypeMismatchException(org.springframework.web.method.annotation.MethodArgumentTypeMismatchException,jakarta.servlet.http.HttpServletRequest)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.3.jar:3.3.3]
+	at com.biblioteca.App.AppApplication.main(AppApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.3.jar:3.3.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.method.annotation.MethodArgumentTypeMismatchException]: {public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handleMethodArgumentTypeMismatchException(org.springframework.web.bind.MethodArgumentNotValidException,jakarta.servlet.http.HttpServletRequest), public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handlerMethodArgumentTypeMismatchException(org.springframework.web.method.annotation.MethodArgumentTypeMismatchException,jakarta.servlet.http.HttpServletRequest)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.method.annotation.MethodArgumentTypeMismatchException]: {public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handleMethodArgumentTypeMismatchException(org.springframework.web.bind.MethodArgumentNotValidException,jakarta.servlet.http.HttpServletRequest), public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handlerMethodArgumentTypeMismatchException(org.springframework.web.method.annotation.MethodArgumentTypeMismatchException,jakarta.servlet.http.HttpServletRequest)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:289) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:256) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1063) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1005) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 25 common frames omitted
+
+2024-11-06T20:54:19.309-03:00  INFO 7240 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Starting AppApplication using Java 17.0.12 with PID 7240 (C:\ProjetoSpring\AppBiblioteca\target\classes started by marce in C:\ProjetoSpring\AppBiblioteca)
+2024-11-06T20:54:19.314-03:00  INFO 7240 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : The following 1 profile is active: "dev"
+2024-11-06T20:54:19.475-03:00  INFO 7240 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-06T20:54:19.476-03:00  INFO 7240 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-06T20:54:20.235-03:00  INFO 7240 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06T20:54:20.319-03:00  INFO 7240 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2024-11-06T20:54:21.385-03:00  INFO 7240 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-06T20:54:21.406-03:00  INFO 7240 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-06T20:54:21.406-03:00  INFO 7240 --- [App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-06T20:54:21.486-03:00  INFO 7240 --- [App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-06T20:54:21.486-03:00  INFO 7240 --- [App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2008 ms
+2024-11-06T20:54:21.538-03:00  INFO 7240 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-06T20:54:21.807-03:00  INFO 7240 --- [App] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@251830f
+2024-11-06T20:54:21.809-03:00  INFO 7240 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-06T20:54:21.822-03:00  INFO 7240 --- [App] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecadb'
+2024-11-06T20:54:22.000-03:00  INFO 7240 --- [App] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06T20:54:22.136-03:00  INFO 7240 --- [App] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-06T20:54:22.206-03:00  INFO 7240 --- [App] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-06T20:54:22.679-03:00  INFO 7240 --- [App] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06T20:54:24.019-03:00  INFO 7240 --- [App] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-06T20:54:24.042-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       drop constraint if exists FKn0lgu5s5522wg7fo5i6jxvimp
+2024-11-06T20:54:24.064-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       drop constraint if exists FK4cn2ysaivmxmjbt3wswo4ih7n
+2024-11-06T20:54:24.067-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists autor cascade
+2024-11-06T20:54:24.082-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists editora cascade
+2024-11-06T20:54:24.090-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists livro cascade
+2024-11-06T20:54:24.098-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_autor
+2024-11-06T20:54:24.102-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_editora
+2024-11-06T20:54:24.105-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_livro
+2024-11-06T20:54:24.116-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_autor start with 1 increment by 50
+2024-11-06T20:54:24.125-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_editora start with 1 increment by 50
+2024-11-06T20:54:24.128-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_livro start with 1 increment by 50
+2024-11-06T20:54:24.137-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table autor (
+        id integer not null,
+        documento_pessoal varchar(255) not null unique,
+        nome varchar(255) not null,
+        primary key (id)
+    )
+2024-11-06T20:54:24.155-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table editora (
+        id integer not null,
+        cnpj varchar(255) not null unique,
+        razao_social varchar(255) not null,
+        primary key (id)
+    )
+2024-11-06T20:54:24.164-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table livro (
+        conservacao smallint check (conservacao between 0 and 3),
+        data_compra date,
+        idautor integer,
+        ideditora integer,
+        numero_paginas integer not null,
+        status smallint check (status between 0 and 2),
+        valor_compra numeric(18,3) not null,
+        id_livro bigint not null,
+        isbn varchar(255) not null unique,
+        titulo varchar(255) not null,
+        primary key (id_livro)
+    )
+2024-11-06T20:54:24.173-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       add constraint FKn0lgu5s5522wg7fo5i6jxvimp 
+       foreign key (idautor) 
+       references autor
+2024-11-06T20:54:24.181-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       add constraint FK4cn2ysaivmxmjbt3wswo4ih7n 
+       foreign key (ideditora) 
+       references editora
+2024-11-06T20:54:24.187-03:00  INFO 7240 --- [App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06T20:54:24.684-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_autor')
+2024-11-06T20:54:24.738-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        autor
+        (documento_pessoal, nome, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:54:24.751-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_autor')
+2024-11-06T20:54:24.752-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        autor
+        (documento_pessoal, nome, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:54:24.754-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_editora')
+2024-11-06T20:54:24.756-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        editora
+        (cnpj, razao_social, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:54:24.759-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_editora')
+2024-11-06T20:54:24.761-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        editora
+        (cnpj, razao_social, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:54:24.764-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_livro')
+2024-11-06T20:54:24.768-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:54:24.773-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_livro')
+2024-11-06T20:54:24.774-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:54:24.777-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:54:24.781-03:00 DEBUG 7240 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:54:24.853-03:00  WARN 7240 --- [App] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06T20:54:25.173-03:00  WARN 7240 --- [App] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.method.annotation.MethodArgumentTypeMismatchException]: {public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handlerMethodArgumentTypeMismatchException(org.springframework.web.method.annotation.MethodArgumentTypeMismatchException,jakarta.servlet.http.HttpServletRequest), public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handleMethodArgumentTypeMismatchException(org.springframework.web.bind.MethodArgumentNotValidException,jakarta.servlet.http.HttpServletRequest)}
+2024-11-06T20:54:25.174-03:00  INFO 7240 --- [App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06T20:54:25.179-03:00  INFO 7240 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-06T20:54:25.184-03:00  INFO 7240 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-06T20:54:25.189-03:00  INFO 7240 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-06T20:54:25.206-03:00  INFO 7240 --- [App] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-06T20:54:25.234-03:00 ERROR 7240 --- [App] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.method.annotation.MethodArgumentTypeMismatchException]: {public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handlerMethodArgumentTypeMismatchException(org.springframework.web.method.annotation.MethodArgumentTypeMismatchException,jakarta.servlet.http.HttpServletRequest), public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handleMethodArgumentTypeMismatchException(org.springframework.web.bind.MethodArgumentNotValidException,jakarta.servlet.http.HttpServletRequest)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.3.jar:3.3.3]
+	at com.biblioteca.App.AppApplication.main(AppApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.3.jar:3.3.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.method.annotation.MethodArgumentTypeMismatchException]: {public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handlerMethodArgumentTypeMismatchException(org.springframework.web.method.annotation.MethodArgumentTypeMismatchException,jakarta.servlet.http.HttpServletRequest), public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handleMethodArgumentTypeMismatchException(org.springframework.web.bind.MethodArgumentNotValidException,jakarta.servlet.http.HttpServletRequest)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.method.annotation.MethodArgumentTypeMismatchException]: {public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handlerMethodArgumentTypeMismatchException(org.springframework.web.method.annotation.MethodArgumentTypeMismatchException,jakarta.servlet.http.HttpServletRequest), public org.springframework.http.ResponseEntity com.biblioteca.resources.exceptions.ResourceExceptionHandler.handleMethodArgumentTypeMismatchException(org.springframework.web.bind.MethodArgumentNotValidException,jakarta.servlet.http.HttpServletRequest)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:289) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:256) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1063) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1005) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 25 common frames omitted
+
+2024-11-06T20:57:35.986-03:00  INFO 29484 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Starting AppApplication using Java 17.0.12 with PID 29484 (C:\ProjetoSpring\AppBiblioteca\target\classes started by marce in C:\ProjetoSpring\AppBiblioteca)
+2024-11-06T20:57:35.991-03:00  INFO 29484 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : The following 1 profile is active: "dev"
+2024-11-06T20:57:36.058-03:00  INFO 29484 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-06T20:57:36.059-03:00  INFO 29484 --- [App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-06T20:57:36.735-03:00  INFO 29484 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06T20:57:36.810-03:00  INFO 29484 --- [App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2024-11-06T20:57:37.777-03:00  INFO 29484 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-06T20:57:37.794-03:00  INFO 29484 --- [App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-06T20:57:37.794-03:00  INFO 29484 --- [App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-06T20:57:37.862-03:00  INFO 29484 --- [App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-06T20:57:37.863-03:00  INFO 29484 --- [App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1803 ms
+2024-11-06T20:57:37.901-03:00  INFO 29484 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-06T20:57:38.121-03:00  INFO 29484 --- [App] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7cca07b1
+2024-11-06T20:57:38.123-03:00  INFO 29484 --- [App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-06T20:57:38.137-03:00  INFO 29484 --- [App] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecadb'
+2024-11-06T20:57:38.291-03:00  INFO 29484 --- [App] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06T20:57:38.385-03:00  INFO 29484 --- [App] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-06T20:57:38.439-03:00  INFO 29484 --- [App] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-06T20:57:38.847-03:00  INFO 29484 --- [App] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06T20:57:40.057-03:00  INFO 29484 --- [App] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-06T20:57:40.075-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       drop constraint if exists FKn0lgu5s5522wg7fo5i6jxvimp
+2024-11-06T20:57:40.081-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       drop constraint if exists FK4cn2ysaivmxmjbt3wswo4ih7n
+2024-11-06T20:57:40.082-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists autor cascade
+2024-11-06T20:57:40.087-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists editora cascade
+2024-11-06T20:57:40.092-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists livro cascade
+2024-11-06T20:57:40.096-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_autor
+2024-11-06T20:57:40.098-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_editora
+2024-11-06T20:57:40.100-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_livro
+2024-11-06T20:57:40.107-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_autor start with 1 increment by 50
+2024-11-06T20:57:40.110-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_editora start with 1 increment by 50
+2024-11-06T20:57:40.112-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_livro start with 1 increment by 50
+2024-11-06T20:57:40.119-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table autor (
+        id integer not null,
+        documento_pessoal varchar(255) not null unique,
+        nome varchar(255) not null,
+        primary key (id)
+    )
+2024-11-06T20:57:40.129-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table editora (
+        id integer not null,
+        cnpj varchar(255) not null unique,
+        razao_social varchar(255) not null,
+        primary key (id)
+    )
+2024-11-06T20:57:40.137-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    create table livro (
+        conservacao smallint check (conservacao between 0 and 3),
+        data_compra date,
+        idautor integer,
+        ideditora integer,
+        numero_paginas integer not null,
+        status smallint check (status between 0 and 2),
+        valor_compra numeric(18,3) not null,
+        id_livro bigint not null,
+        isbn varchar(255) not null unique,
+        titulo varchar(255) not null,
+        primary key (id_livro)
+    )
+2024-11-06T20:57:40.145-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       add constraint FKn0lgu5s5522wg7fo5i6jxvimp 
+       foreign key (idautor) 
+       references autor
+2024-11-06T20:57:40.148-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists livro 
+       add constraint FK4cn2ysaivmxmjbt3wswo4ih7n 
+       foreign key (ideditora) 
+       references editora
+2024-11-06T20:57:40.154-03:00  INFO 29484 --- [App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06T20:57:40.661-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_autor')
+2024-11-06T20:57:40.725-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        autor
+        (documento_pessoal, nome, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:57:40.740-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_autor')
+2024-11-06T20:57:40.741-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        autor
+        (documento_pessoal, nome, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:57:40.744-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_editora')
+2024-11-06T20:57:40.746-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        editora
+        (cnpj, razao_social, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:57:40.749-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_editora')
+2024-11-06T20:57:40.750-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        editora
+        (cnpj, razao_social, id) 
+    values
+        (?, ?, ?)
+2024-11-06T20:57:40.754-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_livro')
+2024-11-06T20:57:40.757-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:57:40.762-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_livro')
+2024-11-06T20:57:40.764-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:57:40.768-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:57:40.772-03:00 DEBUG 29484 --- [App] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        livro
+        (idautor, conservacao, data_compra, ideditora, isbn, numero_paginas, status, titulo, valor_compra, id_livro) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06T20:57:40.850-03:00  WARN 29484 --- [App] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06T20:57:41.245-03:00  INFO 29484 --- [App] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-06T20:57:41.281-03:00  INFO 29484 --- [App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-06T20:57:41.292-03:00  INFO 29484 --- [App] [restartedMain] com.biblioteca.App.AppApplication        : Started AppApplication in 5.885 seconds (process running for 7.31)
+2024-11-06T21:30:49.947-03:00  INFO 29484 --- [App] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06T21:30:49.969-03:00  INFO 29484 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-06T21:30:49.978-03:00  INFO 29484 --- [App] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

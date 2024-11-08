@@ -1,10 +1,13 @@
 package com.biblioteca.domains;
 
 import com.biblioteca.domains.dtos.EditoraDTO;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 
@@ -20,8 +23,17 @@ public class Editora {
     @Column(unique = true)
     private String cnpj;
 
+
     @NotNull @NotBlank
     private String razaoSocial;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "editora")
+    private List<Livro> livros = new ArrayList<>();
+
+    public List<Livro> getLivros(){
+        return livros;
+    }
 
     public Editora() {
     }
@@ -31,7 +43,6 @@ public class Editora {
         this.cnpj = cnpj;
         this.razaoSocial = razaoSocial;
     }
-
     public Editora(EditoraDTO dto) {
         this.id = dto.getId();
         this.cnpj = dto.getCnpj();
